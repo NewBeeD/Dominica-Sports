@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tables",
+  "info": {
+    "singularName": "table",
+    "pluralName": "tables",
+    "displayName": "table",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Club": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Played": {
+      "type": "integer",
+      "required": true,
+      "max": 18,
+      "min": 0,
+      "default": 0
+    },
+    "Won": {
+      "type": "integer",
+      "required": true,
+      "max": 18,
+      "min": 0,
+      "default": 0
+    },
+    "Drawn": {
+      "type": "integer",
+      "required": true,
+      "max": 18,
+      "min": 0,
+      "default": 0
+    },
+    "Lost": {
+      "type": "integer",
+      "required": true,
+      "default": 0,
+      "max": 18,
+      "min": 0
+    },
+    "GF": {
+      "type": "integer",
+      "required": true,
+      "default": 0,
+      "min": 0
+    },
+    "GA": {
+      "type": "integer",
+      "required": true,
+      "min": 0,
+      "default": 0
+    },
+    "GD": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "Points": {
+      "type": "integer",
+      "min": 0,
+      "required": true,
+      "default": 0
+    }
+  }
+}
